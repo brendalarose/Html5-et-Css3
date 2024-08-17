@@ -1,0 +1,108 @@
+table {
+    color: white;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+caption {
+    font-size: 3em;
+    text-align: left;
+    font-family: manrope;
+    color: #A5B4FC;
+    margin-bottom: 20px;
+}
+
+th {
+    border: 1px solid #a5b4fc;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #a5b4fc;
+    padding: 50px;
+}
+
+.section-avec-bouton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-avec-bouton button a {
+    text-decoration: none;
+    color: white;
+    font-family: manrope;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.section-avec-bouton button {
+    background: linear-gradient(90deg, #b2a6f1,#ACAEED);
+    border: none;
+    padding: 20px;
+    border-radius: 60px;
+}
+
+.section-sans-bouton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.tarif-shooting {
+    border-right: 1px #8e86b5 solid;
+    border-bottom: 1px #8e86b5 solid;
+    width: 16em;
+    padding: 30px;
+}
+
+h2 {
+    color: #A5B4FC;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    font-size: manrope;
+    left: 0;
+}
+
+.paragraphe1 {
+    font-family: manrope;
+    margin-bottom: 30px;
+}
+
+.paragraphe2 {
+    color: #A5B4FC; 
+    font-family: manrope;
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+.paragraphe3 {
+    font-size: 0.8em;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 996px) {
+    .section-avec-bouton {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-sans-bouton {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+
+ table {
+    display: none;
+ }
+
+    
+}
